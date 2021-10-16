@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".productDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?actionBarSize"
+        android:theme="?actionBarTheme"
+         android:background="@color/darkgray">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Details"
+            android:textSize="35dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:backgroundTint="@color/white"
+            android:textSize="35dp"
+            android:textColor="@color/darkgray"
+            android:layout_gravity="end"
+            android:onClick="saveProduct"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="product ID"
+        android:textSize="35dp"
+        android:textColor="@color/darkgray"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter id"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/darkgray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="product Name"
+        android:textSize="35dp"
+        android:textColor="@color/darkgray"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edNam"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter Name"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/darkgray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="product Description"
+        android:textSize="35dp"
+        android:textColor="@color/darkgray"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edDesc"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter description"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/darkgray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="product price"
+        android:textSize="35dp"
+        android:textColor="@color/darkgray"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edPrice"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter price"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/darkgray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="product provider"
+        android:textSize="35dp"
+        android:textColor="@color/darkgray"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edPnam"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter provider"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/darkgray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="provider email"
+        android:textSize="35dp"
+        android:textColor="@color/darkgray"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edEm"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter email"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/darkgray"/>
+
+
+
+</LinearLayout>
